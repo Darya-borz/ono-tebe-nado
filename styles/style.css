@@ -9,9 +9,9 @@
 
 .header {
     padding: 92px 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: stretch;
+    display: grid;
+    grid-template-columns: 390px 300px 270px;
+    gap: 205px;
 }
 
 .header_menu {
@@ -39,21 +39,14 @@
     list-style-type: circle;
 }
 
-.header-logo {
-    margin-left: 207px;
-    align-self: center;
-}
-
 .header__logo-image {
     height: 105px;
     width: 148px;
 }
 
 .address {
-    margin-left: 356px;
     margin-top: 9px;
     max-width: 240px;
-    justify-self: flex-end;
 }
 
 .header-link-list-adress {
@@ -104,13 +97,14 @@
 .text-center {
     display: block;
     text-align: center;
-    padding-top: 16px;
+    padding-top: 13px;
 }
 
 .text-right {
     display: block;
     text-align: right;
-    padding-right: 25px;
+    padding-right: 22px;
+    padding-top: 5px;
 }
 
 .title-span-big-spacing {
@@ -122,7 +116,7 @@
     align-self: flex-end;
     margin-right: 51px;
     display: flex;
-    margin-top: 130px;
+    margin-top: 127px;
     z-index: 1;
     color: white;
     text-align: center;
@@ -157,10 +151,6 @@
     font-family: Raleway, sans-serif;
     padding: 5px 15px;
 }
-
-
-
-
 
 .lots {
     padding: 180px 50px;
@@ -259,8 +249,8 @@
 }
 
 .about__textbox {
-    margin-top: 100px;
-    margin-left: 115px;
+    margin-top: 102px;
+    margin-left: 118px;
     max-width: 887px;
     width: 100%;
     display: flex;
